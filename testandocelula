@@ -1,9 +1,0 @@
-#Teste para ver como acessar as celulas
-
-
-print(wb.sheetnames)
-
-for worksheets in wb.sheetnames:
-
-worksheet = wb[worksheets]
-print(worksheet)
