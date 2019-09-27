@@ -4,6 +4,7 @@ import pyzbar.pyzbar as pyzbar
 from openpyxl import load_workbook
 
 def qrcode():
+    flag = 0
     cap = cv2.VideoCapture(0)
     font = cv2.FONT_HERSHEY_PLAIN
 
@@ -25,22 +26,19 @@ def qrcode():
             cv2.imshow('', img)
             cv2.waitKey(0)
             cv2.destroyAllWindows()
+            flag = 1
             break
     
-        key = cv2.waitKey(1)
-        if key == 27:
-            break
-
-        elif key == ord('s'):
-            cv2.imwrite('qrcode_result.jpg', frame)    
+        key = cv2.waitKey(5)
+        if key == 27 or flag == 1:
             break
 
 def busca_string():
-    print('Digite o componente/equipamento que deseja bucar: ')
+    print('Digite o componente/equipamento que deseja buscar: ')
     eqp = input()
 
     wb = load_workbook(filename = 'excel.xlsx')
-    sheet=wb['Planilha1']
+    sheet = wb['Planilha1']
     wb.active
 
     for row in range(2,sheet.max_row+1):  
@@ -55,9 +53,17 @@ def busca_string():
                 break
 
 
-print('Escolha a funcao utilizada:\n\t1)QR Code\n\t2)Strings')
-opcao = int(input())
-if opcao == 1:
-    qrcode()
-elif opcao == 2:
-    busca_string()
+while(True):
+    print('Escolha a funcao utilizada:\n1)QR Code\n2)Strings\n3)Parar')
+    opcao = int(input())
+
+    if opcao == 1:
+        qrcode()
+        cv2.destroyAllWindows()
+
+    elif opcao == 2:
+        busca_string()
+        cv2.destroyAllWindows()
+        
+    elif opcao == 3:
+        break
