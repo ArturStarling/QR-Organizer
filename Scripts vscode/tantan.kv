@@ -1,0 +1,12 @@
+<MainWindow>:
+    Label:
+        text: 'This is a label'
+    TextInput:
+        # We give TextInput an id to reference it in the actual code
+        id: fetch_key_and_process_command
+
+        # We set multiline to False, so we can use the next property (on_text_validate)
+        multiline: False
+
+        # on_text_validate will called MainWindow's process_command() when a user presses enter
+        on_text_validate: root.process_command()
