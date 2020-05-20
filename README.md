@@ -5,7 +5,7 @@ O código foi adaptado para um .apk e pode ser utilizado no android.
 
 
 # Prerequisites
-We used a notebook with Linux Ubuntu 16.04 and 18.04, others versions and operating systems were not tested. We also used an android device for the whole project.
+We used a notebook with Linux Ubuntu 16.04 LTS and 18.04 LTS, others versions and operating systems were not tested. We also used an android device for the whole project.
 
 ## Python 3.6 
 Python 3.6 was used for the project
@@ -44,9 +44,10 @@ Now you need to install python 3.6:
 
 Install all libraries([OpenCV](https://anaconda.org/conda-forge/opencv), [Kivy](https://anaconda.org/conda-forge/kivy) and [Buildozer](https://anaconda.org/travis/buildozer)) and their dependecies(for [buildozer](https://buildozer.readthedocs.io/en/latest/installation.html))
 
-Now connect your cellphone(developer mode needs to be activated) in your computer and execute the following commands:
+Now connect your cellphone(developer mode needs to be activated) in your computer and then execute the following commands:
 	
 	buildozer init
+
 
 	buildozer android debug deploy run
 
