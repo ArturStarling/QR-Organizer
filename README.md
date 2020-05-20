@@ -5,7 +5,7 @@ The app was built using Python3 and OpenCV. An algorithm that reads and recogniz
 
 ![1](1-1.png) --> ![2](2-1.png) --> ![3](3-1.png)
 
-Além disso, você pode escrever o nome do objeto, como "resistors", e receber a mesma imagem que apareceria identificando o QR do "resistors".
+In addition, you can write the name of the object, such as "resistors", and receive the same image that would appear identifying the QR of the "resistors".
 
 The code was implemented into an .apk app, being designed to work with Android. 
 
