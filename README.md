@@ -1,7 +1,7 @@
 # QR-Organizer
 Através da linguagem de programação Python 3 e da biblioteca OpenCV, desenvolvemos um código que reconhece e lê o conteúdo de QrCodes que estarão anexados a objetos de interesse, para assim retornar uma imagem demonstrando a localização em que o material é normalmente mantido.
 
-![1](1.png) ![2](2.png)
+![1](1-1.png) --> ![2](2-1.png) --> ![3](3-1.png)
 
 Além disso, você pode escrever o nome do objeto, como "resistors", e receber a mesma imagem que apareceria identificando o QR do "resistors".
 
