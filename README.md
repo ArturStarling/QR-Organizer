@@ -3,13 +3,12 @@ Através da linguagem de programação Python 3 e da biblioteca OpenCV, desenvol
 
 O código foi adaptado para um .apk e pode ser utilizado no android.
 
----
 
 # Prerequisites
 We used a notebook with Linux Ubuntu 16.04 and 18.04, others versions and operating systems were not tested. We also used an android device for the whole project.
 
 ## Python 3.6 
-Python 3.6 was used for the project
+Python 3.6 was used for the whole project
 
 
 ## Anaconda 3.8.0
@@ -24,7 +23,6 @@ We built a iterface with python using the kivy library.
 ## Buildozer 0.39
 To convert the code to .apk format and send it to an android device, we used buildozer.
 
----
 
 # Building an apk by yourself
 Clone this repository:
@@ -35,8 +33,18 @@ Install anaconda(optional). How to download and install anaconda is documented [
 Create an environment:
 
 	conda create -n [repository name]
+	
+Then activate it:
 
----
+	conda activate [repository name]
+	
+Now you need to install python 3.6:
+
+	conda install python==3.6
+
+Install all libraries([OpenCV](https://anaconda.org/conda-forge/opencv), [Kivy](https://anaconda.org/conda-forge/kivy) and [Buildozer](https://anaconda.org/travis/buildozer)) and their dependecies(for [buildozer](https://buildozer.readthedocs.io/en/latest/installation.html)):
+	
+
 
 # Test it on your android device:
 1. Download the apk on your android device
