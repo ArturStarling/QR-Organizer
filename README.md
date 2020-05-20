@@ -9,7 +9,7 @@ O código foi adaptado para um .apk e pode ser utilizado no android.
 We used a notebook with Linux Ubuntu 16.04 and 18.04, others versions and operating systems were not tested. We also used an android device for the whole project.
 
 ## Python 3.6 
-Python 3.6 was used for the whole project
+Python 3.6 was used for the project
 
 
 ## Anaconda 3.8.0
