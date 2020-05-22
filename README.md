@@ -58,6 +58,13 @@ Now connect your cellphone(developer mode needs to be activated) in your compute
 	
 Note: the command *buildozer init* crates a .spec file with the configurantions of your app. if you are having problem with *buildozer android debug deploy run* you may want to use the configuration in the .spec we provided.
 
+# Test on you computer
+To execute the code on your computer you will need to follow the same steps in the previous section until installing the libraries, but buildozer library is not mandatory.
+
+Then execute main.py, wich is inside testi:
+	
+	pyhton3 main.py 
+
 # Test it on your android device:
 1. Download the apk on your android device
 2. Create and print QR codes with numeration, for example 1 to 10.
