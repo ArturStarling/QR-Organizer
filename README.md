@@ -17,13 +17,13 @@ Python 3.6 was used for the project
 
 
 ## Anaconda 3.8.0
-We kept the envornments organized with anaconda 3.8.0. More info [here](https://www.anaconda.com/products/individual)
+We kept the envirnments organized with anaconda 3.8.0. More info [here](https://www.anaconda.com/products/individual)
 
 ## OpenCV 4.1.2
 OpenCV was used to identify QR Codes, analise them and manipulate images.
 
 ## Kivy 1.11.0
-We built a iterface with python using the kivy library.
+We built a interface with python using the kivy library.
 
 ## Buildozer 0.39
 To convert the code to .apk format and send it to an android device, we used buildozer.
@@ -56,7 +56,7 @@ Now connect your cellphone(developer mode needs to be activated) in your compute
 
 	buildozer android debug deploy run
 	
-Note:the command *buildozer init* crates a .spec file with the configurantions of your app. if you are having problem with *buildozer android debug deploy run* you may want to use the configuration in the .spec we provided.
+Note: the command *buildozer init* crates a .spec file with the configurantions of your app. if you are having problem with *buildozer android debug deploy run* you may want to use the configuration in the .spec we provided.
 
 # Test it on your android device:
 1. Download the apk on your android device
