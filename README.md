@@ -34,7 +34,7 @@ Clone this repository:
 
 	git clone https://github.com/ArturStarling/QR-Organizer
 	
-Install anaconda(optional). How to download and install anaconda is documented [here](https://docs.anaconda.com/anaconda/install/).
+Install anaconda. How to download and install anaconda is documented [here](https://docs.anaconda.com/anaconda/install/).
 Create an environment:
 
 	conda create -n [repository name]
@@ -55,10 +55,11 @@ Now connect your cellphone(developer mode needs to be activated) in your compute
 
 
 	buildozer android debug deploy run
-
+	
+Note:the command *buildozer init* crates a .spec file with the configurantions of your app. if you are having problem with *buildozer android debug deploy run* you may want to use the configuration in the .spec we provided.
 
 # Test it on your android device:
 1. Download the apk on your android device
 2. Create and print QR codes with numeration, for example 1 to 10.
 
-With that, you can already recognize some QR codes and return some images
+With that, you can already recognize some QR codes and return some example images.
