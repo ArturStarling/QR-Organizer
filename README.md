@@ -56,12 +56,12 @@ Now connect your cellphone(developer mode needs to be activated) in your compute
 
 	buildozer android debug deploy run
 	
-Note: the command *buildozer init* crates a .spec file with the configurantions of your app. if you are having problem with *buildozer android debug deploy run* you may want to use the configuration in the .spec we provided.
+Note: the command *buildozer init* crates a .spec file with the configurantions of your app. if you are having problem with *buildozer android debug deploy run* you may want to use the configuration in the .spec we provided inside the testi folder.
 
 # Test on you computer
 To execute the code on your computer you will need to follow the same steps in the previous section until installing the libraries, but buildozer library is not mandatory.
 
-Then execute main.py, wich is inside testi:
+Then execute main.py, wich is inside testi folder:
 	
 	pyhton3 main.py 
 
