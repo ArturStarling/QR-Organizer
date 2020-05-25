@@ -1,7 +1,7 @@
 # QR-Organizer
 The app was built using Python3 and OpenCV. An algorithm that reads and recognizes a given QR Code was developed, relating each one of them to an unique storaged object. The app then returns an image of the object's sector with his location marked by a bouding box. This image can also be shown by passing an registered object's name as an input.
 
-![1](1-2.png) --> ![2](2-2.png) --> ![3](3-3.png)
+![1](https://im7.ezgif.com/tmp/ezgif-7-522be58c21fc.webp)
 
 In addition, you can write the name of the object, such as "resistors", and receive the same image that would appear identifying the QR of the "resistors".
 
