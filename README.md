@@ -24,6 +24,9 @@ We kept the envornments organized with anaconda 3.8.0. More info [here](https://
 ## OpenCV 4.1.2
 OpenCV was used to identify QR Codes, analise them and manipulate images.
 
+## opencv-contrib-python 4.2.0.34
+Some OpenCV packages to enable the use of the QR Code reader. 
+
 ## Kivy 1.11.0
 We built a iterface with python using the kivy library.
 
@@ -49,7 +52,8 @@ Now you need to install python 3.6:
 
 	conda install python==3.6
 
-Install all libraries([OpenCV](https://anaconda.org/conda-forge/opencv), [Kivy](https://anaconda.org/conda-forge/kivy) and [Buildozer](https://anaconda.org/travis/buildozer)) and their dependecies(for [buildozer](https://buildozer.readthedocs.io/en/latest/installation.html))
+Install all libraries([OpenCV](https://anaconda.org/conda-forge/opencv), [Kivy](https://anaconda.org/conda-forge/kivy) and [Buildozer](https://anaconda.org/travis/buildozer)) and their dependecies(for [buildozer](https://buildozer.readthedocs.io/en/latest/installation.html) and for [OpenCV](https://pypi.org/project/opencv-contrib-python/
+))
 
 Now connect your cellphone(developer mode needs to be activated) in your computer and then execute the following commands:
 	
