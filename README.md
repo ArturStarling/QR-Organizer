@@ -33,6 +33,7 @@ To convert the code to .apk format and send it to an android device, we used bui
 
 
 # Building an apk by yourself
+Note: at the time of writting this README.md, buildozer only works on linux plataforms
 Clone this repository:
 
 	git clone https://github.com/ArturStarling/QR-Organizer
