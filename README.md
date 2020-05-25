@@ -1,4 +1,7 @@
 # QR-Organizer
+
+**Authors:** [Adriel Bombonato](https://github.com/Adribom), [Paulo Gigliotii](https://github.com/paulo-gigliotti), [Bruno Bicas](https://github.com/BrunoBicas), [Mariano Correia](https://github.com/mariano-correia), [Artur Starling](https://github.com/ArturStarling)
+
 The app was built using Python3 and OpenCV. An algorithm that reads and recognizes a given QR Code was developed, relating each one of them to an unique storaged object. The app then returns an image of the object's sector with his location marked by a bouding box. This image can also be shown by passing an registered object's name as an input.
 
 ![Alt Text](https://thumbs.gfycat.com/AcademicHandmadeIberiannase-size_restricted.gif)
