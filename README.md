@@ -4,7 +4,7 @@
 
 The app was built using Python3 and OpenCV. An algorithm that reads and recognizes a given QR Code was developed, relating each one of them to an unique storaged object. The app then returns an image of the object's sector with his location marked by a bouding box. 
 
-<a href="https://imgflip.com/gif/431khh"></a>
+<a href="https://imgflip.com/gif/431khh"><img src="https://imgflip.com/embed/431khh" title = "Qr-Organizer"/></a>
 
 The gif above show a photo being taken by a webcam and, because there was a QR Code with data equal to 1, it returned the image of where the object should be. 
 
