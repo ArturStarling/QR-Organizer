@@ -109,6 +109,7 @@ class TestApp(App):
     def qrcode(self, *args):
             capture = cv2.VideoCapture(0)
             ret, frame = capture.read()
+            cv2.imshow("camera atual", frame)
             qrDecoder = cv2.QRCodeDetector()
             data,bbox,rectifiedImage = qrDecoder.detectAndDecode(frame)
 
@@ -119,7 +120,6 @@ class TestApp(App):
             else:
                 poppingup("qrcode inválido, tire outra foto")  
                 
-
 
 if __name__ == '__main__':
     TestApp().run()
