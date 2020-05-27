@@ -4,7 +4,7 @@
 
 The app was built using Python3 and OpenCV. An algorithm that reads and recognizes a given QR Code was developed, relating each one of them to an unique storaged object. The app then returns an image of the object's sector with his location marked by a bouding box. 
 
-https://im7.ezgif.com/tmp/ezgif-7-522be58c21fc.webp
+<div style="width:360px;max-width:100%;"><div style="height:0;padding-bottom:52.22%;position:relative;"><iframe width="360" height="188" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/431khh"></iframe></div><p><a href="https://imgflip.com/gif/431khh">via Imgflip</a></p></div>
 
 The gif above show a photo being taken by a webcam and, because there was a QR Code with data equal to 1, it returned the image of where the object should be. 
 
