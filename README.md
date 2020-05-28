@@ -6,7 +6,7 @@ The app was built using Python3 and OpenCV. An algorithm that reads and recogniz
 
 ![Demo](Videos/Demo.gif)
 
-The video above show some of the code functions. like a photo being taken by a webcam and, because there was a QR Code with data equals to 1, it returned the image of where the object should be. Also a dropdown with some of the registred itens. 
+The video above show some of the code functions. Like a photo being taken by a webcam and, because there was a QR Code with data equals to 1, it returned the image of where the object should be. Also a dropdown with some of the registred itens. 
 
 The code was implemented into an .apk app, being designed to work with Android. 
 
@@ -20,7 +20,7 @@ Python 3.6 was used for the project
 
 
 ## Anaconda 3.8.0
-We kept the envirnments organized with anaconda 3.8.0. More info [here](https://www.anaconda.com/products/individual)
+We kept the environments organized with anaconda 3.8.0. More info [here](https://www.anaconda.com/products/individual)
 
 ## OpenCV 4.1.2
 OpenCV was used to identify QR Codes, analise them and manipulate images.
@@ -57,19 +57,20 @@ Now you need to install python 3.6:
 Install all libraries([OpenCV](https://anaconda.org/conda-forge/opencv), [Kivy](https://anaconda.org/conda-forge/kivy) and [Buildozer](https://anaconda.org/travis/buildozer)) and their dependencies(for [buildozer](https://buildozer.readthedocs.io/en/latest/installation.html) and for [OpenCV](https://pypi.org/project/opencv-contrib-python/
 ))
 
-Now connect your cellphone(developer mode needs to be activated) in your computer and then execute the following commands:
+Now connect your cellphone(developer mode needs to be activated) in your computer and, inside the folder where main.py is, execute:
 	
 	buildozer init
-
+	
+And then:
 
 	buildozer android debug deploy run
 	
 Note: the command *buildozer init* crates a .spec file with the configurantions of your app. if you are having problem with *buildozer android debug deploy run* you may want to use the configuration in the .spec we provided inside the testi folder.
 
-# Test it on you computer
+# Test it on your computer
 To execute the code on your computer you will need to follow the same steps in the previous section until installing the libraries, but buildozer library and dependencies are not mandatory.
 
-Then execute main.py, wich is inside testi folder:
+Then execute themain.py, wich is inside testi folder:
 	
 	pyhton3 main.py 
 
