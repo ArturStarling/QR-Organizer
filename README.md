@@ -6,9 +6,7 @@ The app was built using Python3 and OpenCV. An algorithm that reads and recogniz
 
 <a href="https://imgflip.com/gif/431khh"><img src="https://imgflip.com/embed/431khh" title = "Qr-Organizer"/></a>
 
-The gif above show a photo being taken by a webcam and, because there was a QR Code with data equal to 1, it returned the image of where the object should be. 
-
-In addition, you can write the name of the object, such as "resistors", and receive the same image that would appear identifying the QR of the "resistors".
+The video above show some of the code functions. like a photo being taken by a webcam and, because there was a QR Code with data equals to 1, it returned the image of where the object should be. Also a dropdown with some of the registred itens. 
 
 The code was implemented into an .apk app, being designed to work with Android. 
 
