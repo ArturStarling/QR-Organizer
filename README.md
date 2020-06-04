@@ -71,14 +71,14 @@ Now you need to install python 3.6:
 
 ## Install some dependencies for OpenCV and Buildozer:
 
-For **Buildozer** we recommend that you follow the [documentation]((https://buildozer.readthedocs.io/en/latest/installation.html)) of the installation.
+For **Buildozer** we recommend that you follow the [documentation](https://buildozer.readthedocs.io/en/latest/installation.html) of the installation.
 
 
 [OpenCV](https://pypi.org/project/opencv-contrib-python/):
 
 	conda install -c michael_wild opencv-contrib
 	
-Or
+or
 
 	pip install opencv-contrib-python
 
