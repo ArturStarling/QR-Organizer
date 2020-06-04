@@ -37,6 +37,7 @@ To convert the code to .apk format and send it to an android device, we used bui
 
 # Building an apk by yourself
 Note: at the time of writting this README.md, buildozer only works on linux plataforms
+## Prepare Conda:
 Clone this repository:
 
 	git clone https://github.com/ArturStarling/QR-Organizer
@@ -54,7 +55,7 @@ Now you need to install python 3.6:
 
 	conda install python==3.6
 
-Install all libraries:
+## Install all libraries:
 
 [OpenCV](https://anaconda.org/conda-forge/opencv):
 
@@ -68,11 +69,12 @@ Install all libraries:
 
 	conda install -c travis buildozer
 
-And dependencies for OpenCV and Buildozer:
+## Install some dependencies for OpenCV and Buildozer:
 
-For [Buildozer](https://buildozer.readthedocs.io/en/latest/installation.html) we recommend that you follow the documentation of the installation.  
+For **Buildozer** we recommend that you follow the [documentation]((https://buildozer.readthedocs.io/en/latest/installation.html)) of the installation.
 
-[OpenCV](https://pypi.org/project/opencv-contrib-python/)
+
+[OpenCV](https://pypi.org/project/opencv-contrib-python/):
 
 	conda install -c michael_wild opencv-contrib
 	
