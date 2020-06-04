@@ -54,8 +54,31 @@ Now you need to install python 3.6:
 
 	conda install python==3.6
 
-Install all libraries([OpenCV](https://anaconda.org/conda-forge/opencv), [Kivy](https://anaconda.org/conda-forge/kivy) and [Buildozer](https://anaconda.org/travis/buildozer)) and their dependencies(for [buildozer](https://buildozer.readthedocs.io/en/latest/installation.html) and for [OpenCV](https://pypi.org/project/opencv-contrib-python/
-))
+Install all libraries:
+
+[OpenCV](https://anaconda.org/conda-forge/opencv):
+
+	conda install -c conda-forge opencv	
+
+[Kivy](https://anaconda.org/conda-forge/kivy):
+
+	conda install -c conda-forge kivy
+
+[Buildozer](https://anaconda.org/travis/buildozer):
+
+	conda install -c travis buildozer
+
+And dependencies for OpenCV and Buildozer:
+
+For [Buildozer](https://buildozer.readthedocs.io/en/latest/installation.html) we recommend that you follow the documentation of the installation.  
+
+[OpenCV](https://pypi.org/project/opencv-contrib-python/)
+
+	conda install -c michael_wild opencv-contrib
+	
+Or
+
+	pip install opencv-contrib-python
 
 Now connect your cellphone(developer mode needs to be activated) in your computer and, inside the folder where main.py is, execute:
 	
