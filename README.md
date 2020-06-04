@@ -81,7 +81,8 @@ For **Buildozer** we recommend that you follow the [documentation](https://build
 or
 
 	pip install opencv-contrib-python
-
+	
+## Build the .apk:
 Now connect your cellphone(developer mode needs to be activated) in your computer and, inside the folder where main.py is, execute:
 	
 	buildozer init
