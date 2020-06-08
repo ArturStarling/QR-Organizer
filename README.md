@@ -2,14 +2,15 @@
 
 **Authors:** [Adriel Bombonato](https://github.com/Adribom), [Paulo Gigliotii](https://github.com/paulo-gigliotti), [Bruno Bicas](https://github.com/BrunoBicas), [Mariano Correia](https://github.com/mariano-correia), [Artur Starling](https://github.com/ArturStarling)
 
-The app was built using Python3 and OpenCV. An algorithm that reads and recognizes a given QR Code was developed, relating each one of them to an unique storaged object. The app then returns an image of the object's sector with his location marked by a bouding box. 
+The code was built using programing languege Python3 and some libraries. The algorithm reads and recognizes registered QR Codes, relating each one of them to an unique storaged object. It returns an image of the object's sector. That is also the option to write the object's name and receive the same image.
 
 ![Demo](Videos/Demo.gif)
 
-The video above show some of the code functions. Like a photo being taken by a webcam and, because there was a QR Code with data equals to 1, it returned the image of where the object should be. Also a dropdown with some of the registred itens. 
+The video above show an registered object with QR Code value equal to one being recognized and returning an image with its storage location, wich was demarcated with a red boulding box.
 
-The code was implemented into an .apk app, being designed to work with Android. 
+![Demo](Videos/Demo.gif)
 
+ Typing the object's name wil return the same image.
 
 
 # Prerequisites
