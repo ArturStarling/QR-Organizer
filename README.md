@@ -25,8 +25,11 @@ We kept the environments organized with anaconda 3.8.0. More info [here](https:/
 ## OpenCV 4.1.2
 OpenCV was used to analise and manipulate images.
 
-## Openpyxl
+## Pyzbar
+Pyzbar has a great QR detection algorithm that enables fast code returns.  
 
+## Openpyxl
+We can communicate the main conde with an excel file with Openpyxl.
 
 
 # Installation
