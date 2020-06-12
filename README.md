@@ -8,7 +8,7 @@ The code was built using programing languege Python3 and some libraries. The alg
 
 The video above show an registered object with QR Code value equal to one being recognized and returning an image with its storage location, wich was demarcated with a red boulding box.
 
-
+![Function2](Videos/Function2.gif)
 
  Typing the object's name wil return the same image.
  
