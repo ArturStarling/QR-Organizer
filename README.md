@@ -4,16 +4,14 @@
 
 The code was built using programing languege Python3 and some libraries. The algorithm reads and recognizes registered QR Codes, relating each one of them to an unique storaged object. It returns an image of the object's sector. That is also the option to write the object's name and receive the same image.
 
-
+![Function1](Videos/Fuction1.gif)
 
 The video above show an registered object with QR Code value equal to one being recognized and returning an image with its storage location, wich was demarcated with a red boulding box.
 
-![Function2](Videos/Function2.gif)
+
 
  Typing the object's name wil return the same image.
  
- ![Function1](Videos/Fuction1.gif)
-
 
 # Prerequisites
 We used a notebook with Linux Ubuntu 16.04 LTS and 18.04 LTS, others versions and operating systems were not tested. We also used an android device for the whole project.
